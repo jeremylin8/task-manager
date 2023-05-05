@@ -1,0 +1,83 @@
+.taskList {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.task {
+    background-color:#FFEEB3;
+    width: 50%;
+    min-height: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .task {
+        width: 100%;
+
+    }
+  }
+
+.form {
+    width: 75%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.icons {
+    min-width: 22%;
+}
+
+.icon {
+    width: 2rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.done {
+    color: green;
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+}
+
+.editInput {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.editTextArea {
+    width: 100%;
+    min-height: 10rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.editBtn {
+    width: 5rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
