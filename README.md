@@ -1,5 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+# Task Manager
+Simple task manager app using React, TypeScript and Next.js. [Live demo](https://task-manager-one-theta.vercel.app/)
 # How to run this app?
 
 ### 1. Install dependencies
